@@ -1,0 +1,38 @@
+.list-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 10px;
+  margin-top: 2rem;
+}
+
+
+.list-card > .add-task-btn {
+  position: unset !important;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: white !important;
+  background-color: darkgray !important;
+  padding: 10px 0px !important;
+  font-size: 0.7rem !important;
+  border-radius: 3px;
+  width: 100%;
+  margin-top: 10px;
+
+}
+
+.list-card .list-card-title{
+  padding: 10px ;
+}
+
+.add-list-btn {
+  height: 50px;
+  background: darkgray;
+  border: none;
+  font-size: .7rem;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}

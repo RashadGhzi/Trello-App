@@ -1,0 +1,6 @@
+@media only screen and (max-width: 1280px) {
+  .boards-item{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+

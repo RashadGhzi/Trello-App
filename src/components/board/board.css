@@ -1,0 +1,40 @@
+.board-form {
+  width: 50%;
+  margin: 2em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.board-form input {
+  width: 75%;
+  padding: 1.2em;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  outline: none;
+}
+
+.board-form button {
+  width: 25%;
+  padding: 1.2em;
+  background: gray;
+  border-left: 3px;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  cursor: pointer;
+}
+
+
+/* working boardsItem style  */
+.boards-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+
